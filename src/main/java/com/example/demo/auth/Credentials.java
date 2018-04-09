@@ -1,8 +1,8 @@
 package com.example.demo.auth;
 
 public interface Credentials {
-	public static String app_key = "PAs7RbTSUdA3zZZU9TrWoo7596v1gFr1";
-	public static String app_secret = "PU1JM78uNcU1YHw3";
+	public static String app_key = "";
+	public static String app_secret = "";
 	public static String auth_url = "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials";
 	public static String register_utl = "https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl";
 	public static String content_type = "application/json; charset=utf-8";
